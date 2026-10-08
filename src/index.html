@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДЗ: Анимации и CSS</title>
+</head>
+<body>
+
+    <h1>Домашнее задание: Виджеты</h1>
+
+    <!-- 1. COLLAPSE -->
+    <section class="widget-container">
+        <h2>Collapse Widget</h2>
+        <div class="collapse-widget" id="collapse-1">
+            <button class="collapse-btn">Collapse</button>
+            <div class="collapse-content">
+                <p>Это скрытый контент. Он плавно появляется и исчезает.</p>
+                <p>Используется для скрытия больших объемов текста.</p>
+                <p>Здесь может быть много текста, и он весь будет показан.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. CALLBACK CHAT -->
+    <section class="widget-container">
+        <h2>Callback Chat Widget</h2>
+        <div class="callback-chat-widget">
+            <button class="chat-trigger" id="chat-trigger" aria-label="Открыть чат"></button>
+            <div class="chat-window hidden" id="chat-window">
+                <div class="chat-header">
+                    <span>Напишите нам</span>
+                    <button class="chat-close" id="chat-close">X</button>
+                </div>
+                <form class="chat-form">
+                    <textarea placeholder="Ваше сообщение..."></textarea>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. LIKER -->
+    <section class="widget-container">
+        <h2>Liker Widget</h2>
+        <div class="liker-widget" id="liker-widget">
+            <button class="like-btn" id="like-btn">Like</button>
+        </div>
+    </section>
+
+</body>
+</html>
